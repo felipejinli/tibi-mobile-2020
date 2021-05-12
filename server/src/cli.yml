@@ -1,0 +1,14 @@
+name: Tibi api server
+about: The api server for tibi
+
+args:
+    - port:
+        short: p
+        takes_value: true
+        help: |
+            The port for the server defaults to 8080.
+    - log:
+        short: l
+        takes_value: true
+        help: |
+            The path to the directory of log files.

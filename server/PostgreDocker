@@ -1,0 +1,5 @@
+FROM postgres:12
+
+ENV POSTGRES_USER tibi_api
+ENV POSTGRES_PASSWORD development-temporary-password
+ENV POSTGRES_DB tibi
